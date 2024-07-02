@@ -1,0 +1,5 @@
+nombreCaso,ID,estadoHTTP
+caso id 1,1,200
+caso id 2,2,200
+caso id 3,3,200  
+caso id not found,50,404       
