@@ -50,7 +50,7 @@
            <plugin>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-maven-plugin</artifactId>
-            <version>${karate.version}</version> <!-- Versión de Karate que estés usando -->
+            <version>1.4.1</version> <!-- Versión de Karate que estés usando -->
             <executions>
                 <execution>
                     <id>test</id>
