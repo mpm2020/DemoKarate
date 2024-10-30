@@ -7,7 +7,7 @@ Background:
    Given url 'https://reqres.in/api/users/2'
    When method GET
    And match response.data.first_name =='Janet'
-   Then status 200
+   Then status 400
 
   Scenario: caso de pruebas GET 2
    Given url 'https://reqres.in/api/users/2'
