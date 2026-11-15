@@ -1,6 +1,6 @@
 import com.intuit.karate.junit5.Karate;
 
-public class KarateRunner {
+public class KarateRunnerTest {
     @Karate.Test
     Karate testSample() {
        return Karate.run("classpath:apiREST/KarateTest_GET.feature","classpath:apiREST/KarateTest_POST.feature","classpath:apiREST/KarateTest_DELETE.feature");
